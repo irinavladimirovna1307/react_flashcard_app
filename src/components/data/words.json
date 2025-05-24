@@ -1,0 +1,43 @@
+[{
+        "id": 1,
+        "word": "arm",
+        "transcription": "[ɑ:m]",
+        "translate": "рука",
+        "tag": "часть тела"
+    }, {
+        "id": 2,
+        "word": "abdomen",
+        "transcription": "[ˈæbdəmən]",
+        "translate": "живот",
+        "tag": "анатомия"
+
+    },
+    {
+        "id": 3,
+        "word": "ankle",
+        "transcription": "[ˈæŋkl̩]",
+        "translate": "голеностоп",
+        "tag": "анатомия"
+    },
+    {
+        "id": 4,
+        "word": "answer",
+        "transcription": "[ˈæŋkl̩]",
+        "translate": "ответ",
+        "tag": "слова"
+    },
+    {
+        "id": 5,
+        "word": "aunt",
+        "transcription": "[ˈæŋkl̩]",
+        "translate": "тётя",
+        "tag": "родственные связи"
+    },
+    {
+        "id": 6,
+        "word": "ant",
+        "transcription": "[ˈæŋkl̩]",
+        "translate": "муравей",
+        "tag": "насекомые"
+    }
+]
