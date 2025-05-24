@@ -1,31 +1,31 @@
-@import "../../style/variables.scss";
-@import "../../style/mixins.scss";
+@use "../../style/variables.scss" as *;
+@use "../../style/mixins.scss" as *;
 
 .container {
-    @include word_container;
+  @include word_container;
 }
 
 .item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0.8em 0;
-    height: 40px;
-    // min-width: max-content;
-    padding-left: 1em;
-    border: none;
-    border-radius: 1em;
-    background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.8em 0;
+  height: 40px;
+  // min-width: max-content;
+  padding-left: 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: rgb(245, 245, 245);
 }
 
 .buttons {
-    @include btn_group
+  @include btn_group;
 }
 
 .btn {
-    @include btn;
+  @include btn;
 }
 
 .input {
-    @include input;
+  @include input;
 }

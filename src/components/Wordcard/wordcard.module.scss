@@ -1,29 +1,29 @@
-@import "../../style/variables.scss";
-@import "../../style/mixins.scss";
+@use "../../style/mixins.scss" as *;
+@use "../../style/variables.scss" as *;
 
 .wordbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    min-height: 250px;
-    margin: auto;
-    padding: 1em;
-    background: #fff;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    border-radius: 16px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-height: 250px;
+  margin: auto;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 .word {
-    @include main-text(1.3em, 700)
+  @include main-text(1.3em, 700);
 }
 
 .transcription {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .nav_btn {
-    max-height: 50px;
+  max-height: 50px;
 }

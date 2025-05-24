@@ -1,33 +1,32 @@
-@import "../../style/variables.scss";
-@import "../../style/mixins.scss";
+@use "../../style/variables.scss" as *;
+@use "../../style/mixins.scss" as *;
 
 .container {
-    display: flex;
-    justify-content: center;
-    max-height: 80px;
-    bottom: 0;
-    background: $bg-gradient;
-    color: $main-fontcolor;
-    /* new */
-    position: sticky;
-    bottom: 0;
-    z-index: 1;
+  display: flex;
+  justify-content: center;
+  max-height: 80px;
+  bottom: 0;
+  background: $bg-gradient;
+  color: $main-fontcolor;
+  /* new */
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
 }
 
 .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
 }
 
 .img {
-    max-width: 50px;
-    margin: 0 2em;
-    border-radius: 50%; 
+  max-width: 50px;
+  margin: 0 2em;
+  border-radius: 50%;
 }
 
-.text{
-    @include main-text (1.2em);
+.text {
+  @include main-text(1.2em);
 }
-
